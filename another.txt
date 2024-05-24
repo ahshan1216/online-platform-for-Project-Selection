@@ -1,0 +1,26 @@
+-- Create the project_students table
+CREATE TABLE project_students (
+   id INT AUTO_INCREMENT PRIMARY KEY FIRST,
+    group_number INT,
+    student_id VARCHAR(50),
+    session VARCHAR(50),
+    status int SET DEFAULT 0,
+listening INT DEFAULT 0,
+project_approval INT DEFAULT 0,
+request INT DEFAULT 0,
+group_leader INT DEFAULT 0;
+);
+
+-- Create the trigger
+DELIMITER //
+CREATE TRIGGER before_insert_project_students
+BEFORE INSERT ON project_students
+FOR EACH ROW
+BEGIN
+    IF NEW.group_number IS NULL THEN
+        -- Auto-increment group_number only if not provided in the INSERT statement
+        SET NEW.group_number = (SELECT COALESCE(MAX(group_number), 0) + 1 FROM project_students);
+    END IF;
+END;
+//
+DELIMITER ;

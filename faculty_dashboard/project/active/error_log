@@ -1,0 +1,40 @@
+[29-Mar-2024 05:49:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'etisparl_versity.t' doesn't exist in /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php:26
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php(26): mysqli_query(Object(mysqli), 'UPDATE t SET ti...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php on line 26
+[29-Mar-2024 05:49:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'etisparl_versity.t' doesn't exist in /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php:26
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php(26): mysqli_query(Object(mysqli), 'UPDATE t SET ti...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php on line 26
+[29-Mar-2024 05:49:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'etisparl_versity.t' doesn't exist in /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php:26
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php(26): mysqli_query(Object(mysqli), 'UPDATE t SET ti...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php on line 26
+[18-Apr-2024 11:32:18 UTC] PHP Warning:  Undefined array key "teacher_id" in /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php on line 6
+[18-Apr-2024 11:32:18 UTC] PHP Warning:  Undefined array key "teacher_id" in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 6
+[18-Apr-2024 11:32:18 UTC] PHP Warning:  Undefined variable $session in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 24
+[18-Apr-2024 11:32:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE approved_by_faculty = '0' AND approved_by_faculty REGEXP '^[0-9]+$'' at line 1 in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php:26
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php(26): mysqli_query(Object(mysqli), 'SELECT COUNT(*)...')
+#1 /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php(9): include('/home/etisparl/...')
+#2 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 26
+[18-Apr-2024 11:32:23 UTC] PHP Warning:  Undefined array key "teacher_id" in /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php on line 6
+[18-Apr-2024 11:32:23 UTC] PHP Warning:  Undefined array key "teacher_id" in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 6
+[18-Apr-2024 11:32:23 UTC] PHP Warning:  Undefined variable $session in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 24
+[18-Apr-2024 11:32:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE approved_by_faculty = '0' AND approved_by_faculty REGEXP '^[0-9]+$'' at line 1 in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php:26
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php(26): mysqli_query(Object(mysqli), 'SELECT COUNT(*)...')
+#1 /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php(9): include('/home/etisparl/...')
+#2 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 26
+[21-May-2024 10:53:59 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php on line 4
+[21-May-2024 10:53:59 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php on line 6
+[21-May-2024 10:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/Faculty_dashboard/project/active/index.php on line 6
+[21-May-2024 10:53:59 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 6
+[21-May-2024 10:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 6
+[21-May-2024 10:53:59 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 6
+[21-May-2024 10:53:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 6

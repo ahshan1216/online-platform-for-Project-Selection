@@ -1,0 +1,5 @@
+[06-Apr-2024 06:20:02 UTC] PHP Warning:  Undefined array key "student_id" in /home/etisparl/nubps.xyz/head_admin_dashboard/project/pending/index.php on line 12
+[06-Apr-2024 06:20:02 UTC] PHP Warning:  Undefined array key "student_id" in /home/etisparl/nubps.xyz/head_admin_dashboard/extention/header_database.php on line 6
+[06-Apr-2024 06:20:02 UTC] PHP Warning:  Undefined array key "student_id" in /home/etisparl/nubps.xyz/head_admin_dashboard/extention/header_database.php on line 6
+[25-Apr-2024 13:12:33 UTC] PHP Warning:  Undefined array key "teacher_id" in /home/etisparl/nubps.xyz/head_admin_dashboard/project/pending/project_description.php on line 13
+[26-Apr-2024 15:08:35 UTC] PHP Warning:  Undefined array key "teacher_id" in /home/etisparl/nubps.xyz/head_admin_dashboard/project/pending/update_status.php on line 13

@@ -1,0 +1,91 @@
+[15-Apr-2024 07:52:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/logout.php:11) in /home/etisparl/nubps.xyz/logout.php on line 31
+[15-Apr-2024 07:52:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/logout.php:11) in /home/etisparl/nubps.xyz/logout.php on line 31
+[15-Apr-2024 07:53:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/logout.php:11) in /home/etisparl/nubps.xyz/logout.php on line 31
+[19-Apr-2024 07:29:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/logout.php:11) in /home/etisparl/nubps.xyz/logout.php on line 31
+[19-Apr-2024 07:29:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/logout.php:11) in /home/etisparl/nubps.xyz/logout.php on line 31
+[19-Apr-2024 07:30:26 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/etisparl/nubps.xyz/logout.php on line 3
+[19-Apr-2024 07:30:26 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/etisparl/nubps.xyz/logout.php on line 9
+[19-Apr-2024 07:30:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/logout.php:1) in /home/etisparl/nubps.xyz/logout.php on line 10
+[19-Apr-2024 07:30:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/etisparl/nubps.xyz/logout.php on line 3
+[19-Apr-2024 07:30:53 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/etisparl/nubps.xyz/logout.php on line 9
+[19-Apr-2024 07:30:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/logout.php:1) in /home/etisparl/nubps.xyz/logout.php on line 31
+[19-Apr-2024 07:31:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/etisparl/nubps.xyz/logout.php on line 3
+[19-Apr-2024 07:31:02 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/etisparl/nubps.xyz/logout.php on line 9
+[19-Apr-2024 07:31:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/logout.php:1) in /home/etisparl/nubps.xyz/logout.php on line 31
+[19-Apr-2024 07:31:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/logout.php:11) in /home/etisparl/nubps.xyz/logout.php on line 31
+[19-Apr-2024 07:31:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/logout.php:11) in /home/etisparl/nubps.xyz/logout.php on line 31
+[19-Apr-2024 07:31:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/logout.php:11) in /home/etisparl/nubps.xyz/logout.php on line 31
+[15-May-2024 07:49:50 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/etisparl/nubps.xyz/api.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/etisparl/nubps.xyz/api.php on line 11
+[15-May-2024 12:45:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/etisparl/nubps.xyz/api.php:10
+Stack trace:
+#0 /home/etisparl/nubps.xyz/api.php(10): mysqli->__construct('localhost', 'etisparl_versit...', 'etisparl_versit...', 'etisparl_versit...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/api.php on line 10
+[15-May-2024 12:45:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/etisparl/nubps.xyz/api.php:10
+Stack trace:
+#0 /home/etisparl/nubps.xyz/api.php(10): mysqli->__construct('localhost', 'etisparl_versit...', 'etisparl_versit...', 'etisparl_versit...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/api.php on line 10
+[15-May-2024 12:45:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/etisparl/nubps.xyz/api.php:10
+Stack trace:
+#0 /home/etisparl/nubps.xyz/api.php(10): mysqli->__construct('localhost', 'etisparl_versit...', 'etisparl_versit...', 'etisparl_versit...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/api.php on line 10
+[15-May-2024 12:49:47 UTC] PHP Warning:  Undefined variable $row in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:49:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:49:47 UTC] PHP Deprecated:  password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in /home/etisparl/nubps.xyz/api.php on line 37
+[15-May-2024 12:53:26 UTC] PHP Warning:  Undefined variable $row in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:53:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:53:52 UTC] PHP Warning:  Undefined variable $row in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:53:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:53:55 UTC] PHP Warning:  Undefined variable $row in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:53:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:54:03 UTC] PHP Warning:  Undefined variable $row in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:54:03 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:54:16 UTC] PHP Warning:  Undefined variable $row in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:54:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:54:30 UTC] PHP Warning:  Undefined variable $row in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:54:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:54:40 UTC] PHP Warning:  Undefined variable $row in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:54:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:54:44 UTC] PHP Warning:  Undefined variable $row in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:54:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:55:48 UTC] PHP Warning:  Undefined variable $row in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:55:48 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:56:35 UTC] PHP Warning:  Undefined variable $row in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 12:56:35 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 33
+[15-May-2024 13:05:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 34
+[16-May-2024 06:53:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/api.php on line 34
+[22-May-2024 10:43:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/etisparl/nubps.xyz/database.php:8
+Stack trace:
+#0 /home/etisparl/nubps.xyz/database.php(8): mysqli->__construct('localhost', 'etisparl_versit...', 'etisparl_versit...', 'etisparl_versit...')
+#1 /home/etisparl/nubps.xyz/fetch_data.php(3): include('/home/etisparl/...')
+#2 {main}
+  thrown in /home/etisparl/nubps.xyz/database.php on line 8
+[22-May-2024 10:43:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/etisparl/nubps.xyz/database.php:8
+Stack trace:
+#0 /home/etisparl/nubps.xyz/database.php(8): mysqli->__construct('localhost', 'etisparl_versit...', 'etisparl_versit...', 'etisparl_versit...')
+#1 /home/etisparl/nubps.xyz/fetch_data.php(3): include('/home/etisparl/...')
+#2 {main}
+  thrown in /home/etisparl/nubps.xyz/database.php on line 8
+[22-May-2024 10:43:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/etisparl/nubps.xyz/database.php:8
+Stack trace:
+#0 /home/etisparl/nubps.xyz/database.php(8): mysqli->__construct('localhost', 'etisparl_versit...', 'etisparl_versit...', 'etisparl_versit...')
+#1 /home/etisparl/nubps.xyz/fetch_data.php(3): include('/home/etisparl/...')
+#2 {main}
+  thrown in /home/etisparl/nubps.xyz/database.php on line 8
+[22-May-2024 10:43:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/etisparl/nubps.xyz/database.php:8
+Stack trace:
+#0 /home/etisparl/nubps.xyz/database.php(8): mysqli->__construct('localhost', 'etisparl_versit...', 'etisparl_versit...', 'etisparl_versit...')
+#1 /home/etisparl/nubps.xyz/fetch_data.php(3): include('/home/etisparl/...')
+#2 {main}
+  thrown in /home/etisparl/nubps.xyz/database.php on line 8
+[22-May-2024 10:43:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/etisparl/nubps.xyz/database.php:8
+Stack trace:
+#0 /home/etisparl/nubps.xyz/database.php(8): mysqli->__construct('localhost', 'etisparl_versit...', 'etisparl_versit...', 'etisparl_versit...')
+#1 /home/etisparl/nubps.xyz/fetch_data.php(3): include('/home/etisparl/...')
+#2 {main}
+  thrown in /home/etisparl/nubps.xyz/database.php on line 8

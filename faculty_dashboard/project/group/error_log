@@ -1,0 +1,66 @@
+[29-Mar-2024 05:49:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'group_approval' in 'where clause' in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php:81
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php(81): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 81
+[29-Mar-2024 05:50:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'group_approval' in 'where clause' in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php:81
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php(81): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 81
+[29-Mar-2024 05:53:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'group_approval' in 'where clause' in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php:81
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php(81): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 81
+[29-Mar-2024 05:53:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'group_approval' in 'where clause' in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php:81
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php(81): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 81
+[29-Mar-2024 05:53:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'group_approval' in 'where clause' in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php:81
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php(81): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 81
+[29-Mar-2024 05:53:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'group_approval' in 'where clause' in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php:81
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php(81): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 81
+[29-Mar-2024 05:56:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'group_approval' in 'where clause' in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php:81
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php(81): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 81
+[29-Mar-2024 05:56:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'group_approval' in 'where clause' in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php:81
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php(81): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 81
+[29-Mar-2024 05:56:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'group_approval' in 'where clause' in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php:81
+Stack trace:
+#0 /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php(81): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 81
+[29-Mar-2024 06:06:08 UTC] PHP Warning:  Undefined variable $group_number in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 405
+[29-Mar-2024 06:06:08 UTC] PHP Warning:  Undefined variable $group_leader_name in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 406
+[29-Mar-2024 06:57:45 UTC] PHP Warning:  Undefined variable $group_number in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 405
+[29-Mar-2024 06:57:45 UTC] PHP Warning:  Undefined variable $group_leader_name in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 406
+[29-Mar-2024 06:59:01 UTC] PHP Warning:  Undefined variable $group_number in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 405
+[29-Mar-2024 06:59:01 UTC] PHP Warning:  Undefined variable $group_leader_name in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 406
+[29-Mar-2024 14:01:51 UTC] PHP Warning:  Undefined variable $group_number in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 405
+[29-Mar-2024 14:01:51 UTC] PHP Warning:  Undefined variable $group_leader_name in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 406
+[30-Mar-2024 07:02:21 UTC] PHP Warning:  Undefined variable $group_number in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 405
+[30-Mar-2024 07:02:21 UTC] PHP Warning:  Undefined variable $group_leader_name in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 406
+[05-Apr-2024 11:30:32 UTC] PHP Warning:  Undefined variable $group_number in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 405
+[05-Apr-2024 11:30:32 UTC] PHP Warning:  Undefined variable $group_leader_name in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 406
+[21-May-2024 10:53:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 5
+[21-May-2024 10:53:33 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 13
+[21-May-2024 10:53:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 13
+[21-May-2024 10:53:33 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 6
+[21-May-2024 10:53:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 6
+[21-May-2024 10:53:33 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 6
+[21-May-2024 10:53:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/etisparl/nubps.xyz/Faculty_dashboard/extention/header_database.php on line 6
+[21-May-2024 10:53:33 UTC] PHP Warning:  Undefined variable $group_number in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 405
+[21-May-2024 10:53:33 UTC] PHP Warning:  Undefined variable $group_leader_name in /home/etisparl/nubps.xyz/Faculty_dashboard/project/group/index.php on line 406

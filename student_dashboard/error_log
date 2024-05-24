@@ -1,0 +1,63 @@
+[29-Mar-2024 05:46:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'versity'@'localhost' (using password: YES) in /home/etisparl/nubps.xyz/database.php:8
+Stack trace:
+#0 /home/etisparl/nubps.xyz/database.php(8): mysqli->__construct('localhost', 'versity', 'versity', 'versity')
+#1 /home/etisparl/nubps.xyz/student_dashboard/index.php(2): include('/home/etisparl/...')
+#2 {main}
+  thrown in /home/etisparl/nubps.xyz/database.php on line 8
+[29-Mar-2024 05:46:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'versity'@'localhost' (using password: YES) in /home/etisparl/nubps.xyz/database.php:8
+Stack trace:
+#0 /home/etisparl/nubps.xyz/database.php(8): mysqli->__construct('localhost', 'versity', 'versity', 'versity')
+#1 /home/etisparl/nubps.xyz/student_dashboard/index.php(2): include('/home/etisparl/...')
+#2 {main}
+  thrown in /home/etisparl/nubps.xyz/database.php on line 8
+[29-Mar-2024 05:48:23 UTC] PHP Warning:  Undefined array key "group_approval" in /home/etisparl/nubps.xyz/student_dashboard/index.php on line 93
+[29-Mar-2024 05:48:28 UTC] PHP Warning:  Undefined array key "group_approval" in /home/etisparl/nubps.xyz/student_dashboard/index.php on line 93
+[16-Apr-2024 12:11:39 UTC] PHP Warning:  Undefined array key "role" in /home/etisparl/nubps.xyz/student_dashboard/index.php on line 13
+[16-Apr-2024 15:44:32 UTC] PHP Warning:  Undefined array key "role" in /home/etisparl/nubps.xyz/student_dashboard/index.php on line 13
+[25-Apr-2024 09:49:03 UTC] PHP Warning:  Undefined array key "role" in /home/etisparl/nubps.xyz/student_dashboard/index.php on line 13
+[25-Apr-2024 09:49:03 UTC] PHP Warning:  Undefined array key "verify" in /home/etisparl/nubps.xyz/student_dashboard/index.php on line 14
+[25-Apr-2024 11:19:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:42) in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 43
+[25-Apr-2024 11:19:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:42) in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 43
+[25-Apr-2024 11:19:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:42) in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 43
+[25-Apr-2024 11:27:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:42) in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 43
+[25-Apr-2024 11:38:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:42) in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 43
+[25-Apr-2024 11:40:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Reg number so user can find their lost bike too if possible.&nbsp;</p>', progr' at line 1 in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:36
+Stack trace:
+#0 /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php(36): mysqli_query(Object(mysqli), 'UPDATE summer24...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 36
+[25-Apr-2024 11:40:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Reg number so user can find their lost bike too if possible.&nbsp;</p>', progr' at line 1 in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:36
+Stack trace:
+#0 /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php(36): mysqli_query(Object(mysqli), 'UPDATE summer24...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 36
+[25-Apr-2024 11:40:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Reg number so user can find their lost bike too if possible.&nbsp;</p>', progr' at line 1 in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:36
+Stack trace:
+#0 /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php(36): mysqli_query(Object(mysqli), 'UPDATE summer24...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 36
+[25-Apr-2024 11:41:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:42) in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 43
+[25-Apr-2024 11:41:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Reg number so user can find their lost bike too if possible.&nbsp;</p>', progr' at line 1 in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:36
+Stack trace:
+#0 /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php(36): mysqli_query(Object(mysqli), 'UPDATE summer24...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 36
+[25-Apr-2024 11:43:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Reg number so user can find their lost bike too if possible.&nbsp;</p>', progr' at line 1 in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:36
+Stack trace:
+#0 /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php(36): mysqli_query(Object(mysqli), 'UPDATE summer24...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 36
+[25-Apr-2024 11:43:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:42) in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 43
+[25-Apr-2024 11:44:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Reg number so user can find their lost bike too if possible.</p>', progress = ' at line 1 in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:36
+Stack trace:
+#0 /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php(36): mysqli_query(Object(mysqli), 'UPDATE summer24...')
+#1 {main}
+  thrown in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 36
+[25-Apr-2024 11:46:30 UTC] PHP Parse error:  Unclosed '{' on line 25 in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 90
+[25-Apr-2024 11:50:16 UTC] PHP Parse error:  Unclosed '{' on line 25 in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 100
+[25-Apr-2024 11:50:25 UTC] PHP Parse error:  Unclosed '{' on line 25 in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 100
+[25-Apr-2024 11:51:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:66) in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 67
+[25-Apr-2024 11:51:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:66) in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 67
+[25-Apr-2024 11:51:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php:66) in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 67
+[25-Apr-2024 11:52:39 UTC] PHP Parse error:  Unclosed '{' on line 25 in /home/etisparl/nubps.xyz/student_dashboard/dassubmit.php on line 100
+[21-May-2024 18:00:08 UTC] PHP Parse error:  Unclosed '{' on line 392 in /home/etisparl/nubps.xyz/student_dashboard/index.php on line 443

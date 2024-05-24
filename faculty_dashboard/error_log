@@ -1,0 +1,9 @@
+[29-Mar-2024 05:44:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'versity'@'localhost' (using password: YES) in /home/etisparl/nubps.xyz/database.php:8
+Stack trace:
+#0 /home/etisparl/nubps.xyz/database.php(8): mysqli->__construct('localhost', 'versity', 'versity', 'versity')
+#1 /home/etisparl/nubps.xyz/Faculty_dashboard/index.php(2): include('/home/etisparl/...')
+#2 {main}
+  thrown in /home/etisparl/nubps.xyz/database.php on line 8
+[21-May-2024 10:53:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/etisparl/nubps.xyz/Faculty_dashboard/index.php on line 5
+[21-May-2024 10:53:55 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/etisparl/nubps.xyz/Faculty_dashboard/index.php on line 5
+[21-May-2024 10:53:57 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/etisparl/nubps.xyz/Faculty_dashboard/index.php on line 5
